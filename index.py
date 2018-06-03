@@ -6,11 +6,7 @@ from datetime import datetime, date, time, timedelta
 import time
 import datetime
 
-
-
 root = Tk()
-
-
 #==================RELOJ DIGITAL============================================================
 root.focus()
 root.config(cursor='watch')
@@ -22,14 +18,10 @@ screen_height = root.winfo_screenheight()
 root.attributes("-fullscreen", False)
 ahora = time.strftime("%c")
 
-
 #==================FechaACTUAL===============#
 x = datetime.datetime.now()
 fecha =  ("%s/%s/%s" % (x.day, x.month, x.year))
 #==================FechaACTUAL===============#
-
-
-
 
 #==================================LISTBOX============================================
 
@@ -69,7 +61,6 @@ def on_select(event):
     print('---')
 
 test_list = ('saco', 'terno', 'blusa', 'vestido', 'mochila', 'sinnombre', 'nose', 'algo' )
-
 
 #=====================================================================================
 def Database():
@@ -188,8 +179,6 @@ def Delete():
             conn.close()
             txt_result.config(text="Se borraron los datos", fg="black")
 
-
-
 def Exit():
     result = tkMessageBox.askquestion('SISTEMA LAVANDERIA', '¿Seguro que quieres salir?', icon="warning")
     if result == 'yes':
@@ -287,8 +276,6 @@ precio = Entry(Forms, textvariable=PRECIO, width=30)
 precio.grid(row=4, column=1)
 fecha = Entry(Forms, textvariable=FECHA, width=30)
 fecha.grid(row=5, column=1)
-
-
 
 Entry = entry.bind('<KeyRelease>', on_keyrelease)
 Listbox = listbox.bind('<<ListboxSelect>>', on_select)
