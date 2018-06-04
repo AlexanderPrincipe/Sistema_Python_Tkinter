@@ -10,7 +10,7 @@ Requerimientos Funcionales:
 - Actualiza registros de la BD
 - Borra registros de la BD
 - Busca registros de la BD
- =======================================================
- 
+
+
  El sistema da la fecha actual del sistema y la hora del sistema
 
