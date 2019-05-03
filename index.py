@@ -7,7 +7,7 @@ import time
 import datetime
 
 root = Tk()
-#==================RELOJ DIGITAL============================================================
+#==================RELOJ DIGITAL=============================================================
 root.focus()
 root.config(cursor='watch')
 
