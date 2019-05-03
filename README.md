@@ -1,5 +1,5 @@
 # Sistema_Python_Tkinter
-CRUD_Python
+CRUD_Python v.0.1
 
 Es un sistema hecho en python, se utiliza la interfaz grafica Tkinter y el gestor de Base de Datos SQLite
 
@@ -10,6 +10,8 @@ Requerimientos Funcionales:
 - Actualiza registros de la BD
 - Borra registros de la BD
 - Busca registros de la BD
+
+
 
 
  El sistema da la fecha actual del sistema y la hora del sistema
